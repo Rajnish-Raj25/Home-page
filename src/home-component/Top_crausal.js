@@ -39,10 +39,7 @@ const Top_crausal = () => {
         <div className="col-lg-10">
           <div className="row">
             {/* for large screen  */}
-            <div
-              className="col-lg-8 d-none d-lg-block"
-              style={{ border: "1px solid red" }}
-            >
+            <div className="col-lg-8 d-none d-lg-block">
               <h1 className="India">India</h1>
               <h3 style={{ color: "#FBF9F9" }}>
                 brings out <span style={{ color: "#FDBA2F" }}>15 lakh</span>{" "}

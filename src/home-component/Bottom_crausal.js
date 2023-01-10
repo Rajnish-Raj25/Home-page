@@ -21,10 +21,7 @@ const Bottom_crausal = () => {
         <div className="col-lg-10">
           <div className="row">
             {/* for large screen  */}
-            <div
-              className="col-lg-8 d-none d-lg-block"
-              style={{ border: "1px solid red" }}
-            >
+            <div className="col-lg-8 d-none d-lg-block">
               <p className="paragraph">
                 <span className="bottom">100</span> Job postings.. <br />{" "}
                 <span className="bottom">1000s</span> of interviews.. <br />
