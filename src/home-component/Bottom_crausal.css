@@ -1,0 +1,66 @@
+.bottom_para {
+  font-size: 36px;
+  color: #ffffff;
+}
+.looking {
+  color: #ffffff;
+  font-size: 56px;
+  font-family: "Dm Sans";
+  line-height: 42px;
+  letter-spacing: -7.28%;
+}
+.bottom {
+  font-size: 3rem;
+  font-weight: bold;
+
+  line-height: 52px;
+  letter-spacing: -6.28%;
+  font-family: "Dm Sans";
+  color: #fdba2f;
+}
+.Why {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -6.5%;
+}
+.why1 {
+  font-size: 56px;
+  color: #fdba2f;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: medium;
+
+  line-height: 52px;
+  letter-spacing: -6.28%;
+  font-family: "Dm Sans";
+}
+.tech_talent {
+  background-image: url("../images/Rectangle.png");
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 440px) {
+  .bottom_background {
+    background-image: url("../images/bgImg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .bottom_background p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Dm Sans";
+    line-height: 26px;
+    letter-spacing: -6.28%;
+    padding: 1rem;
+  }
+}
