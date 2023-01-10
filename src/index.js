@@ -8,12 +8,12 @@ import HomeComponent from "./home-component/home-component";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-     <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-         {/* <Route path="/" element={<App />}></Route> */}
-        <Route path="/home" element={<HomeComponent />}></Route>
+        {/* <Route path="/" element={<App />}></Route> */}
+        <Route path="/" element={<HomeComponent />}></Route>
       </Routes>
-    </BrowserRouter> 
+    </BrowserRouter>
     <App />
   </React.StrictMode>
 );
